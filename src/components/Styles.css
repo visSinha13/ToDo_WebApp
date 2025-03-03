@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url('./images/todo_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* color: aliceblue; */
+    text-align: center;
+    background-color: rgb(244, 245, 240);
+    font-family: "Great Vibes", cursive;
+}
+
+.container {
+    border: 2px solid rgb(186, 207, 191);
+    width: 28rem;
+    height: 30rem;
+    background-image: url("./images/background.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.para {
+    margin: 5px 0;
+    padding: 5px 0;
+}
+ul{
+    width: 18rem;
+    
+}
+
+input {
+    border: 1px solid rgb(194, 182, 159);
+    font-size: 18px;
+    padding: 4px 9px;
+    background-color: rgb(194, 182, 159, 0.8);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+}
+
+.addBtn {
+    border: 1px solid rgb(186, 207, 191);
+    font-size: 17px;
+    padding: 4.5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+    background-color: rgb(186, 207, 191);
+    color: rgb(64, 62, 53);
+}
+
+.list {
+    list-style: none;
+    background-color: rgb(194, 182, 159, 0.6);
+    margin: 13px 0;
+    padding: 5px 11px;
+    font-size: 18px;
+    border: 1px solid rgb(186, 207, 191);
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Old Standard TT", serif;
+}
+span{
+    margin: 0 5px;
+}
+.currEle{
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.delBtn{
+    width: 30px;
+    height: 30px;
+    padding-top: 2px;
+    
+}
+.delBtn:hover{
+    border: 1px solid rgb(104, 145, 212);
+    border-radius: 50%;
+    background-color: rgb(194, 182, 159);
+    cursor: pointer;
+}
+.clearBtn{
+    border: 1px solid rgb(186, 207, 191);
+    background-color: rgb(186, 207, 191);
+    padding: 8px;
+    margin: 8px 0 0 0;
+    border-radius: 8px;
+}
