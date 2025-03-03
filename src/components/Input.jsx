@@ -9,7 +9,7 @@ export const Input = () => {
   const handleInputChange = (value) => {
     setInput(value);
   }
-
+// handling add task
   const handleOnSubmit = (e) => {
     e.preventDefault();
     console.log(input);
@@ -23,10 +23,13 @@ export const Input = () => {
 
   };
 
+  //handling delete button/icon
   const handleDeleteClick = (value) => {
     const updatedTask = task.filter((currEle) => currEle !== value);
     setTask(updatedTask);
   }
+
+  //handling clear all button
   const handleClearBtn=()=>{
     setTask([])
   }
